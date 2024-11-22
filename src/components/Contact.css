@@ -1,0 +1,223 @@
+.contact {
+    margin-top:50px;
+   /*  border:2px solid black; */
+    
+
+}
+
+
+.contact h1 {
+    font-family: 'Arial Narrow', sans-serif;
+    /*border:2px solid red;*/
+    font-size:30px;
+    font-weight:bolder;
+    color: rgb(64, 64, 164);
+    /* border:2px solid green; */
+    padding-left:100px;
+    margin-bottom:10px;
+}
+.contact h3 {
+    font-family: 'Roboto', sans-serif;
+    display:inline-block;
+    width:200px;
+    height:auto;
+   /*  border:2px solid red; */
+    margin-left:570px;
+    margin-bottom: 5px;
+    padding-left:13px;
+
+}
+.contact ul.logos{
+/*     border:2px solid black; */
+    display: flex;
+    width:200px;
+    margin-left:47%;
+    
+    
+    
+}
+
+.contact ul.logos img {
+    height:20px;
+    width:20px;
+    margin:0px 10px;
+    
+}
+
+/* .contactform {
+    border:2px solid black;
+}
+
+.contactform{
+    display:inline-block;
+    width:500px;
+    margin-left:400px;
+    padding:10px;
+}
+
+.contactform input.text{
+    width:200px;
+    padding:5px 7px;
+    display:inline-block;
+    margin-left:20px;
+    
+}
+
+.contactform label{
+    border:2px solid black;
+    display: inline-block;
+    width:150px;
+}
+
+.contactform label textarea {
+    width:600px;
+    margin-left:30px;
+} */
+
+@Media all and (max-width:480px)
+{
+    .contact {
+        /* border:2px solid black;  */
+        margin-left:50px;
+        margin-left:110px;
+       
+    }
+
+    .contact h3{
+     /*  border:2px solid black;  */
+        margin-left:150px;
+        padding-left:40px;
+    }
+    .contact ul.logos {
+       /*  border:2px solid red;  */
+        padding-left:60px;
+    }
+
+    .contact h1 {
+       width:350px;
+       padding-left:170px;
+        /* border:2px solid blue;  */
+    }
+
+}
+
+@Media all and (min-width:481px) and (max-width:767px){
+    .contact {
+        
+        margin-left:150px;
+        /*  border:2px solid black;  */
+       
+    }
+
+    .contact h3{
+         /* border:2px solid black;   */
+        margin-left:150px;
+        padding-left:20px;
+    }
+
+    .contact h1{
+        margin-left:80px;
+       /*   border:2px solid black;   */
+         padding-left: 80px;
+        
+    }
+
+    .contact ul.logos{
+        margin-left:150px;
+       /*   border:2px solid red;  */
+    }
+}
+
+@media all and (min-width:768px) and (max-width:1024px){
+    .contact{
+       
+       /* border:2px solid black;  */
+        padding-left:280px;
+    }
+
+    .contact h1 {
+     /*    border:2px solid blue; */
+        margin-left:100px;
+        
+    } 
+
+    .contact h3 {
+       /* border:2px solid red;  */
+       margin-left: 200px;
+        
+    }
+
+    .contact ul.logos {
+       /*  border:2px solid green;  */
+        margin-left:180px;
+    }
+}
+
+@media all and (min-width:1025px) and (max-width:1280px){
+    .contact 
+    {
+        
+        width:300px;
+        margin-left:400px;
+       /*  border:2px solid red; */
+    }
+
+    .contact h1
+    {
+      /*   border: 2px solid black;  */
+        padding-left: 130px;
+       
+    }
+    .contact h3 {
+        
+        margin-left:120px;
+    /*     border:2px solid green;  */
+        
+    }
+
+    .contact ul.logos{
+    /*   border:2px solid violet;  */
+        margin-left:90px;
+        
+    }
+
+    /* .contact h1 {
+        border:2px solid green;
+    } */
+}
+
+@media all and  (min-width:1280px)
+{
+    .contact 
+    {
+/*          border:2px solid black;  */ 
+        width:500px;
+        margin-left:430px;
+    }
+
+   .contact h1 
+   {
+         /* border:2px solid red;  */
+         padding-left: 130px;
+    }  
+
+    .contact ul.logos {
+       /* border:2px solid green;   */
+        margin-left:140px;
+        padding-left:200px;
+        width:150px;
+    }
+
+    .contact ul.logos img {
+        /*   border:2px solid green;  */
+          margin-left:-200px;
+          /* border: 2px solid black; */
+      }
+
+    .contact h3 {
+       /*  border: 2px solid blue;  */ 
+        margin-left:130px;
+    }
+
+
+}
